@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 5px;
+}
+
+.banner {
+    position: relative;
+    height: 30vh;
+    overflow: hidden;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.texto-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ 
+}
+
+.banner h2,
+.banner p {
+    z-index: 1;
+    padding: 10px; /* Ajuste conforme necessário */
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+article {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.artigo {
+    flex: 0 1 calc(30% - 20px); /* Ajuste conforme necessário */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.artigo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.texto-artigo {
+    flex-grow: 1;
+}
+
+.contato {
+    text-align: center;
+}
+#ul-contato li {
+    list-style-type: none;
+}
+.comentario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.comentario h3 {
+    margin-top: 0;
+}
+.comentarios-clientes {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
